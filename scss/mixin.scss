@@ -1,0 +1,16 @@
+@mixin transition($ease) {
+    transition: $ease;
+    -moz-transition: $ease;
+    -webkit-transition: $ease;
+    -ms-transition: $ease;
+}
+
+@mixin menu ($px1) {
+    margin-top: $px1;
+    margin-bottom: $px1;
+}
+
+@mixin margin($px) {
+    margin-top: $px;
+    margin-bottom: $px;    
+}

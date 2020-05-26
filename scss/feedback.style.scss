@@ -1,0 +1,45 @@
+form{
+    width: 50%;
+    margin-left: 32%;
+
+}
+form label{
+    float: left;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+form input{
+    border-radius: 5px;
+    border: 2px solid rgb(87, 83, 83);
+    padding: 5px;
+    background-color: #fafafa;
+    float: left;
+    clear: both;
+    margin-bottom: 10px;
+    width: 70%;
+}
+form input:focus,form textarea:focus {border: 2px solid #dad871}
+
+form textarea{
+    width: 68.5%;
+    float: left;
+    clear: both;
+    background-color: #fafafa;
+    border: 2px solid rgb(87, 83, 83);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+form #send{
+    float: left;
+    padding: 10px;
+    background-color: #dad871;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 42%;
+    margin-left: 15%;
+    :hover{
+    background-color: #6B8E23;}}
